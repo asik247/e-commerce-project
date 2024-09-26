@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin:auto;
+  padding: 20px 0;
+    align-items: center;
+
+}
+nav >ul> li{
+    display: inline-block;
+    list-style: none;
+}
+nav > ul > li> a{
+    margin: 0 5px;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 18px;
+  transition: 0.5s;
+  background-color: lightcoral;
+  color: black;
+   padding: 10px 10px;
+   border-radius: 5px;
+}
+nav > ul > li > a:hover{
+    color: red;
+    background-color: black;
+}
+nav > ul > a> i{
+    color: rgb(209, 19, 19);
+   margin-left: 10px;
+   font-size: 25px;
+   border: 2px solid black;
+   padding: 5px 10px;
+}
+.logo h1{
+    border: 1px solid rgb(182, 44, 64);
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.logo span{
+    color: red;
+}
+
+
+/* hero area start */
+.bck_color{
+    background-color: rgba(235, 90, 90, 0.425);
+    height: 100vh;
+    top: 0;
+    width: 100%;
+}
+.hero_area_parent{
+    display: flex;
+    width: 1000px;
+    margin:200px auto;
+  
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_area_title > h2{
+padding: 10px 0;
+font-size: 30px;
+font-weight: 600;
+}
+.hero_area_title > p{
+    color: gray;
+    margin: 15px 0;
+}
+.hero_area_title > button{
+    padding: 10px 25px;
+    background-color: rgb(236, 57, 13);
+    border-radius: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+    transform: 0.5s;
+    border: none;
+}
+.hero_area_title > button:hover{
+    background-color: rgb(214, 88, 4);
+}
+.hero_area_imge{
+    /* margin-left: 50px; */
+  
+    width: 550px;
+    
+}
+
+/* main code start here */
+
+.first_section{
+    margin: 100px;
+}
+.first_section_parent{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    align-items: center;
+ 
+   
+}
+.picture{
+  
+    width: 345px;
+    height: 350px;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* second section code start here */
+.second_section > h2{
+    text-align: center;
+    font-size: 30px;
+    /* margin: 80px; */
+    padding: 50px 0;
+
+}
+.second_section{
+    margin-bottom: 100px;
+    background-color: gray;
+    height: 70vh;
+}
+.second_section > h2::after {
+    content: '';
+    position: absolute;
+    top: 1560px;
+    left: 580px;
+    width: 81px;
+    height: 5px;
+    background-color: red;
+}
+.secont_section_parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1000px;
+    margin: auto;
+    
+    grid-gap:20px;
+  
+  
+   
+}
+.secont_section_images_parent{
+    width: 220px;
+    height: 300px;
+  
+}
+.secont_section_images_parent > img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.secont_section_images_parent > img:hover{
+    transform: scale(1.1);
+}
+.secont_section_images_parent > h4{
+    text-transform: capitalize;
+    padding: 5px 0;
+
+}
+.secont_section_images_parent > i{
+    color: red;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.secont_section_images_parent > p{
+    margin-top: 2px;
+}
+
+/* Third section start */
+.third_section > h2{
+    text-align: center;
+   margin-bottom: 100px;
+}
+.third_section > h2::after {
+    content: '';
+    position: absolute;
+    top: 2225px;
+    left: 580px;
+    width: 81px;
+    height: 5px;
+    background-color: red;
+}
+
+
+.third_section_parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1000px;
+    margin: auto;
+    grid-row-gap:80px;
+    padding-bottom: 150px;
+  
+  
+   
+}
+
+
+/* forth section code start here */
+.forth_section{
+    background-color: lightpink;
+    margin-bottom: 50px;
+}
+
+.forth_section_parent{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smart_watch{
+    width: 300px;
+}
+.smart_watch img{
+    width: 100%;
+}
+.forth_section_title{
+  
+    width: 450px;
+}
+.forth_section_title > h2{
+    padding: 10px 0;
+    font-size: 25px;
+   
+}
+.forth_section_title > p{
+    padding-bottom: 20px;
+}
+.forth_section_title > a{
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.forth_section_title > a:hover{
+ background-color: lightcoral;
+}
+.forth_section_title > h4{
+    color: gray;
+}
+
+
+/* five section code start here */
+#testimoniya_section{
+    margin: 200px 0;
+   
+}
+.testimoniya_parent{
+    width: 1000px;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-between;
+
+}
+.testimoniya_single_div{
+   
+    text-align: center;
+    width: 300px;
+    box-shadow: 10px 15px 5px 10px rgb(240, 235, 238);
+    border-radius: 10px;
+   
+}
+.testimoniya_single_div > img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  
+   margin-bottom: 30px;
+   text-align: center;
+   margin-left: -133px;
+}
+.testimoniya_single_div > i{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.testimoniya_single_div > p{
+   padding: 10px 5px;
+    text-align: center;
+}
+.testimoniya_single_div > h4{
+font-size: 25px;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
