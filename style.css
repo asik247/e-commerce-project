@@ -272,6 +272,7 @@ font-weight: 600;
     width: 300px;
     box-shadow: 10px 15px 5px 10px rgb(240, 235, 238);
     border-radius: 10px;
+    transition: 0.5s;
    
 }
 .testimoniya_single_div > img{
@@ -298,3 +299,36 @@ font-size: 25px;
 text-transform: capitalize;
 margin-bottom: 10px;
 }
+.testimoniya_single_div:hover{
+    transform: scale(1.1);
+}
+
+/* six section code start here */
+#location{
+  
+   margin: 100px 0;
+    background-color: rgb(109, 94, 112);
+}
+.location_main{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+   
+
+}
+.location_main > div > img{
+    width: 170px;
+   
+    height: 120px;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+
+    
+}
+
+
+    
+
